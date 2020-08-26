@@ -60,7 +60,12 @@ def print_category(entries, level):
     for se in subentries:
       if len(se['CATEGORY']) > level + 1:
         print_category(subentries, level+1)
+        break
       else:
+        if not 'booktitle' in se:
+          if 'archivePrefix' in se and 'eprint' in se:
+            se['booktitle'] = '%s:%s' % (se['archivePrefix'], se['eprint'])
+
         print('* **%s**, %s, *%s*\n' %
               (se['title'], se['author'], se['booktitle']))
         print('  * Taxonomy Category: %s\n' % ', '.join(se['TYPE']))
