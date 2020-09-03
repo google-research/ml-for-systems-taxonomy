@@ -1,3 +1,9 @@
+WARNING: Unknown bibtex: @inproceedings {song2020,
+
+WARNING: Unknown bibtex:   month = feb,
+
+WARNING: Unknown bibtex: @inproceedings {zhou2019,
+
 # ML for Systems Bibliography
 
 This file contains a formatted version of the ML for Systems
@@ -61,6 +67,20 @@ in IEEE Micro. For the full annotated bibliography in bibtex format, see
 
   * ML Strategies: Supervised learning, LSTMS
 
+### Storage Systems
+
+* **Learning Relaxed Belady for Content Distribution Network Caching**, Zhenyu Song and Daniel S. Berger and Kai Li and Wyatt Lloyd, *17th {USENIX} Symposium on Networked Systems Design and Implementation ({NSDI} 20)*
+
+  * Taxonomy Category: Discovery
+
+  * ML Strategies: Imitation Learning
+
+* **Multi-Task Learning for Storage Systems**, Giulio Zhou and Martin Maas, *Workshop on ML for Systems at NeurIPS 2019*
+
+  * Taxonomy Category: Extrapolation
+
+  * ML Strategies: Supervised learning, Transformers, Multi-Task Learning
+
 ## Computer Architecture
 
 ### Speculation
@@ -83,7 +103,7 @@ in IEEE Micro. For the full annotated bibliography in bibtex format, see
 
   * Taxonomy Category: Anomaly Detection
 
-  * ML Strategies: Auto-encoders
+  * ML Strategies: Autoencoders
 
 ### Hardware Design
 
@@ -92,4 +112,22 @@ in IEEE Micro. For the full annotated bibliography in bibtex format, see
   * Taxonomy Category: Optimization
 
   * ML Strategies: Reinforcement Learning
+
+## Compilers
+
+### Optimizations
+
+* **Compiler Auto-Vectorization with Imitation Learning**, Mendis, Charith and Yang, Cambridge and Pu, Yewen and Amarasinghe, Dr.Saman and Carbin, Michael, *Advances in Neural Information Processing Systems 32*
+
+  * Taxonomy Category: Discovery, Optimization
+
+  * ML Strategies: Imitation Learning, Graph Neural Networks
+
+### Performance Models
+
+* **Ithemal: Accurate, Portable and Fast Basic Block Throughput Estimation using Deep Neural Networks**, Mendis, Charith and Renda, Alex and Amarasinghe, Saman and Carbin, Michael, *ICML*
+
+  * Taxonomy Category: Extrapolation, Forecasting
+
+  * ML Strategies: Supervised Learning, LSTMs
 
