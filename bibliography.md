@@ -1,9 +1,3 @@
-WARNING: Unknown bibtex: @inproceedings {song2020,
-
-WARNING: Unknown bibtex:   month = feb,
-
-WARNING: Unknown bibtex: @inproceedings {zhou2019,
-
 # ML for Systems Bibliography
 
 This file contains a formatted version of the ML for Systems
@@ -117,6 +111,12 @@ in IEEE Micro. For the full annotated bibliography in bibtex format, see
 
 ### Optimizations
 
+* **Learning to Optimize Tensor Programs**, Chen, Tianqi and Zheng, Lianmin and Yan, Eddie and Jiang, Ziheng and Moreau, Thierry and Ceze, Luis and Guestrin, Carlos and Krishnamurthy, Arvind, *Advances in Neural Information Processing Systems 31*
+
+  * Taxonomy Category: Optimization
+
+  * ML Strategies: Supervised Learning, Transfer Learning, Gradient Boosted Trees, TreeGRU
+
 * **Compiler Auto-Vectorization with Imitation Learning**, Mendis, Charith and Yang, Cambridge and Pu, Yewen and Amarasinghe, Dr.Saman and Carbin, Michael, *Advances in Neural Information Processing Systems 32*
 
   * Taxonomy Category: Discovery, Optimization
@@ -124,6 +124,12 @@ in IEEE Micro. For the full annotated bibliography in bibtex format, see
   * ML Strategies: Imitation Learning, Graph Neural Networks
 
 ### Performance Models
+
+* **A Learned Performance Model for the Tensor Processing Unit**, Samuel J. Kaufman and Phitchaya Mangpo Phothilimthana and Yanqi Zhou and Mike Burrows, *arXiv:2008.01040*
+
+  * Taxonomy Category: Extrapolation, Forecasting
+
+  * ML Strategies: Supervised Learning, Graph Neural Networks
 
 * **Ithemal: Accurate, Portable and Fast Basic Block Throughput Estimation using Deep Neural Networks**, Mendis, Charith and Renda, Alex and Amarasinghe, Saman and Carbin, Michael, *ICML*
 

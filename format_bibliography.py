@@ -38,7 +38,7 @@ for line in sys.stdin:
     entry = {}
     continue
 
-  m = re.match(r'\s*(\S+) = {(.*)},?$', line)
+  m = re.match(r'\s*(\S+)\s*=\s*{(.*)},?$', line)
   if m:
     entry[m.group(1)] = m.group(2)
     continue
