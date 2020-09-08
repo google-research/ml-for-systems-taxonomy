@@ -4,4 +4,5 @@ Author: Martin Maas, Google Research, Brain Team
 
 This repository contains the supplementary survey/bibliography for "A Taxonomy
 of ML for Systems Problems", to appear in IEEE Micro. See `bibliography.md`
-for a formatted version of the bibliography.
+for a formatted version of the bibliography. This is intended to be a living
+document and will be updated over time.
