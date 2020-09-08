@@ -85,7 +85,9 @@ print('''@article{maas2020_ml_taxonomy,
   journal={IEEE Micro},
   title={A Taxonomy of ML for Systems Problems},
   year={2020},
-  number={3},
+  volume={40},
+  number={5},
+  pages={8-16},
 }''')
 print('```\n')
 print_category(bibtex, 0)

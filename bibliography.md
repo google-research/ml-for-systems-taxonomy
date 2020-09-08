@@ -11,7 +11,9 @@ in IEEE Micro. For the full annotated bibliography in bibtex format, see
   journal={IEEE Micro},
   title={A Taxonomy of ML for Systems Problems},
   year={2020},
-  number={3},
+  volume={40},
+  number={5},
+  pages={8-16},
 }
 ```
 
