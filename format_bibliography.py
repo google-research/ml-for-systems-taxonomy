@@ -54,7 +54,7 @@ for b in bibtex:
 def print_category(entries, level):
   """Recursively prints categories and entries."""
   categories = set([b['CATEGORY'][level] for b in entries])
-  for c in categories:
+  for c in sorted(categories):
     print('%s %s\n' % ('#' * (level+2), c))
     subentries = [b for b in entries if b['CATEGORY'][level] == c]
     for se in subentries:
@@ -65,6 +65,8 @@ def print_category(entries, level):
         if not 'booktitle' in se:
           if 'archivePrefix' in se and 'eprint' in se:
             se['booktitle'] = '%s:%s' % (se['archivePrefix'], se['eprint'])
+          if 'journal' in se and 'volume' in se and 'number' in se:
+            se['booktitle'] = '%s, %s(%s)' % (se['journal'], se['volume'], se['number'])
 
         print('* **%s**, %s, *%s*\n' %
               (se['title'], se['author'], se['booktitle']))
