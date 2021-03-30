@@ -103,6 +103,12 @@ in IEEE Micro. For the full annotated bibliography in bibtex format, see
 
   * ML Strategies: Collaborative Filtering
 
+* **PES: Proactive Event Scheduling for Responsive and Energy-Efficient Mobile Web Computing**, Feng, Yu and Zhu, Yuhao, *Proceedings of the 46th International Symposium on Computer Architecture*
+
+  * Taxonomy Category: Forecasting
+
+  * ML Strategies: Logistic Regression
+
 * **Learning Scheduling Algorithms for Data Processing Clusters**, Mao, Hongzi and Schwarzkopf, Malte and Venkatakrishnan, Shaileshh Bojja and Meng, Zili and Alizadeh, Mohammad, *Proceedings of the ACM Special Interest Group on Data Communication*
 
   * Taxonomy Category: Discovery
